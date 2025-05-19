@@ -1,2 +1,6 @@
+  codex/create-ai-ad-agency-project-from-scratch-p3fhsg
+# Placeholder for future dependencies (e.g., Flask, pytest)
+=======
 Flask==2.2.5
 pytest==7.4.0
+ main
