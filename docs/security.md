@@ -1,12 +1,8 @@
 # Security Guidelines
 
-    codex/create-ai-ad-agency-project-from-scratch-p3fhsg
-- Use strong password hashing (bcrypt recommended; sha256 used here for simplicity).
-- Sanitize all user inputs to prevent injection attacks.
-- Implement multi-factor authentication and session management where possible.
-=======
 - Use strong password hashing (bcrypt).
-- Sanitize all user inputs to prevent injection attacks.
-- Implement multi-factor authentication and session management.
-    main
+- Sanitize user inputs and use parameterized queries to avoid injection.
+- Implement multi-factor authentication and proper session management.
 - Ensure data encryption at rest and in transit.
+- Limit privileges for API keys and credentials.
+- Perform regular security audits and dependency updates.
