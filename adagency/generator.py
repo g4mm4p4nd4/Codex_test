@@ -1,11 +1,10 @@
-from dataclasses import dataclass
-
-
-@dataclass
-class ProductInfo:
-    name: str
+from .models import ProductInfo
 
 
 def generate_ad_copy(product: ProductInfo) -> str:
-    """Generate simple advertisement copy from product information."""
-    return f"Buy {product.name} now!"
+    """Generate advertisement copy from product information."""
+    lines = [f"Introducing {product.name}!"]
+    if product.description:
+        lines.append(product.description)
+    lines.append("Order today and see the difference.")
+    return " ".join(lines)
