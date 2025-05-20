@@ -1,0 +1,21 @@
+{
+  "projectName": "AI-Powered Advertising Agency Platform (MVP Focus)",
+  "overview": "MVP focuses on automated ad creation and targeting for Google Ads using a Node.js/Express backend, MongoDB, and a React frontend.",
+  "phases": {
+    "PHASE-MVP-001": {
+      "name": "MVP Development",
+      "tasks": [
+        "Implement User Registration and Login",
+        "Develop Ad Campaign Creation Workflow",
+        "Implement Automated Ad Generation",
+        "Integrate with Google Ads API"
+      ]
+    },
+    "PHASE-POSTMVP-002": {
+      "name": "Post-MVP Enhancement - Iteration 1",
+      "tasks": [
+        "Integrate with Facebook Ads API"
+      ]
+    }
+  }
+}
