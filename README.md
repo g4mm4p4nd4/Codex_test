@@ -1,23 +1,23 @@
 # AI Ad Agency
 
-This project implements an AI-powered advertising agency platform.  A Flask API
-provides endpoints for generating advertisement copy and managing user accounts.
-Future iterations will add targeting and optimization features.
+This project implements an AI-powered advertising agency platform. The current MVP uses a Node.js/Express backend with TypeScript and will eventually include a React frontend. Previous Python prototypes remain for reference.
 
 ## Technology Stack
-- Python 3.11 with Flask
-- (Planned) React with TypeScript for the frontend
+- Node.js with Express
+- TypeScript
+- MongoDB (planned)
+- React (planned for frontend)
 
 ## Development
 Install dependencies and start the API server:
 
 ```bash
-pip install -r requirements.txt
-python -m adagency.app
+npm install
+npm run dev
 ```
 
-Run unit tests:
+Run unit tests (requires dev dependencies):
 
 ```bash
-python -m unittest discover -s tests -v
+npm test
 ```
